@@ -33,22 +33,22 @@ int main()
     case 'B':
     case 'b':
              totalq=quant*B;
-             p("\n Total cost: %.2f", totalq);
+             p("\n Total cost: Rs. %.2f", totalq);
              break;
     case 'F':
     case 'f':
              totalq=quant*F;
-             p("\n Total cost: %.2f", totalq);
+             p("\n Total cost: Rs. %.2f", totalq);
              break;
     case 'P':
     case 'p':
              totalq=quant*P;
-             p("\n Total cost: %.2f", totalq);
+             p("\n Total cost: Rs. %.2f", totalq);
              break;
     case 'S':
     case 's':
              totalq=quant*S;
-             p("\n Total cost: %.2f", totalq);
+             p("\n Total cost: Rs. %.2f", totalq);
              break;
     default: p("\n INVALID ENTRY!");
     }
